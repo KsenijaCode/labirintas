@@ -8,25 +8,45 @@
 </head>
 
 <body>
-    <div style="background-color: rgb(212, 153, 241); width: 100%;">
+    <div style="
+        background-color: rgb(212, 153, 241);
+        width: 100%;
+        display: inline-block">
         <div>x</div>
     </div>
 
     <div style="background-color: aqua;">
         <img style="
+            margin-left: 15%;
+            margin-right: 0%;
+            float: left;
             width: 20%;
             background-color: brown;
             display: inline-block;" 
             src="./images/labirintas.png" alt="">
+
         <div style="
-                background-color: darkgreen; 
-                display:inline-block;
-                width: 40%;">
+            margin-left: 20%;
+            float: left;
+            background-color: darkgreen; 
+            display:inline-block;
+            width: 40%;">
             <h1>404</h1>
             <p>Looks like you are in a maze.</p>
             <p style="
             font-size: 30px; 
             font-family: monospace">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo enim dicta vel quis deleniti beatae?</p>
+            <a style="
+                box-shadow: 0 0 0 rgb(157, 242, 157);
+                background-color: green;
+                color: white;
+                text-decoration: none;
+                display: block;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                padding: 20px;
+                padding-right: 40px;
+                padding-left: 40px;"
+                href="#">Go back home</a>
         </div>
     </div>
 </body>
@@ -36,7 +56,7 @@
 <!--
 
 background-color: purple;
-color: black;
+color: black;               // teksto
 
 font-size: 100px;
 font-family: Arial;
@@ -45,7 +65,8 @@ font-weight: normal;        // 400
 font-weight: 400;
 font-style: italic;
 text-decoration: underline;
-
+line-height: 30px           // eilutes aukstis (nepriklauso nuo srifto dydzio) 
+             1em            // proporcija srifto dydziui
 width: 200px;
 width: 30%;
 
@@ -54,4 +75,28 @@ display: inline;            // kaip tekstas
 display: none;              // nerodomas
 display: inline-block
 
+float: left                 // priverstinis elemento statymas horizantaliai (inline-block)
+
+margin: 0                  // atstumas iki aplinkiniu elementu
+margin-top: 20px
+margin-bottom:
+margin-left:
+margin-right:
+
+
+padding: 0                  // atstumas nuo elemento turinio iki to elemento krastu
+padding-top: 20px
+padding-bottom:
+padding-left:
+padding-right:
+
+
+box-shadow: 0 0 0           // seselis
+            0               // i desine/kaire
+              0             // virsus/apacia
+                0           // blur
+                  0
+
+
+Tekstines stiliaus savybes paveldimos
 -->
