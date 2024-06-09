@@ -62,11 +62,11 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/KsenijaCode/)
+Ksenija Bal.: [Github](https://github.com/KsenijaCode/)
 
 ## ⚠️ License
 
-Distributed under the MIT License. See LICENSE.txt for more information.
+Distributed under the ISC License. See LICENSE.txt for more information.
 
 ## 🔗 Other resources
 
